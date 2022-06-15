@@ -1,0 +1,248 @@
+/* General */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Navbar */
+.navbar{
+    width: 100%;
+    background-color: #038b8b;
+    height: 70px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.navbar a{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.navbar a:hover{
+    color: azure;
+    
+}
+
+/* INFO */
+.info{
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 567px;
+}
+
+/* About */
+.about{
+    padding: 35px;
+    color: white;
+}
+
+.about h1{
+    margin: 0;
+    padding: 0;
+    line-height: 100px;
+    font-size: 40px;
+}
+
+.about p{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+/* Featured */
+
+.featured{
+    width: 100%;
+    padding: 80px 0;
+    
+    
+}
+
+.featured h1{
+    text-align: center;
+}
+
+.featured img{
+    width: 450px;
+    height: 255px;
+    padding-left: 7px;
+    padding-top: 10px;
+    
+}
+
+.featured img:hover{
+    transform: scale(1.5);
+}
+
+.featured p{
+    padding-left: 8px;
+}
+
+.cars{
+    display: block;
+    width: 100%;
+}
+
+.car{
+    width: 24.4%;
+    float: left;
+    margin-left: 5px;
+    background-color: #e4e2e2;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.car1{
+    width: 24.4%;
+    float: left;
+    margin-left: 10px;
+    background-color: #e4e2e2;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.car2{
+    width: 24.4%;
+    float: left;
+    margin-left: 10px;
+    background-color: #e4e2e2;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.car3{
+    width: 24.4%;
+    float: right;
+    background-color: #e4e2e2;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button a{
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #038b8b;
+    text-align: center;
+    margin-left: 47%;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    
+    
+}
+
+.button a:hover{
+    background-color: #053b68;
+}
+
+/* Footer */
+
+.footer{
+    width: 100%;
+    background-color: #053b68;
+    height: 250px;
+    color: white;
+    text-align: center;
+}
+
+.box1{
+    padding: 20px;
+}
+
+.footer img{
+    height: 30px;
+    display: inline-block;
+}
+
+/* Vehicle */
+.vehicle{
+    width: 99.9%;
+    padding: 40px 0;
+    background-color: #e4e2e2;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.vehicle img{
+    width: 463px;
+}
+
+/* Contact */
+
+.contact{
+    padding: 80px;
+    background-color: #eeeeee;
+    height: 570px;
+    
+}
+
+.contact h1{
+    text-align: center;
+}
+
+.contact-info{
+    background-color: white;
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+.contact-form{
+    background-color: white;
+    width: 67%;
+    float: right;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+input{
+    width: 99%;
+    height: 30px;
+    margin-bottom: 10px;
+    
+}
+
+textarea{
+    width: 99%;
+    height: 150px;
+}
+
+.contact-form a{
+    display: block; 
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #084955;
+}
+
+.contact-form a:hover{
+    background-color: #067d92;
+}
